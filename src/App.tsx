@@ -38,7 +38,7 @@ export default function App() {
 
   const handleCreateRoom = async (hostDeviceName: string) => {
     try {
-      const resp = await fetch('/api/rooms', { method: 'POST' });
+      const resp = await fetch('https://syncpulse-0gq1.onrender.com/api/rooms', { method: 'POST' });
       const data = await resp.json();
       if (data.success && data.roomCode) {
         setRoomCode(data.roomCode);
