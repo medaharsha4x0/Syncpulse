@@ -1,0 +1,6 @@
+{
+  "name": "SyncPulse - Multi-Device Synchronized Audio Party System",
+  "description": "Zero-latency multi-phone surround sound speaker mesh with NTP-style clock sync, sub-millisecond drift correction, dynamic audio visualizers, and host radar controls.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
